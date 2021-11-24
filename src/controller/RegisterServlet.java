@@ -47,6 +47,7 @@ public class RegisterServlet extends HttpServlet {
 		String fullName=req.getParameter("fullName");
 		String contactInfo=req.getParameter("contactInfo");
 		String pwd=req.getParameter("pwd");
+
 		System.out.println("myConnection1 " +connection);
 		connection=Connect.getConnection();
 		System.out.println("myConnection2 " +connection);

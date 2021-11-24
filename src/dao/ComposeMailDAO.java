@@ -16,6 +16,7 @@ public class ComposeMailDAO {
 		
 	
         String qry=	"insert into compose(toname, subject, body,time,sender) values(?,?,?,?,?)";	
+
 		try {
 			PreparedStatement ps=connection.prepareStatement(qry);
 			if(ps!=null){

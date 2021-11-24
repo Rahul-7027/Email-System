@@ -20,10 +20,9 @@ public class Connect {
 		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mymail","root","root");
 		System.out.println("bhartirawat"+ connection);
 	}
-	catch (SQLException e) {
-		// TODO Auto-generated catch block
+	catch(ClassNotFoundException e){
 		e.printStackTrace();
-	} catch (ClassNotFoundException e) {
+	} catch (SQLException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}

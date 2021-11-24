@@ -6,7 +6,10 @@ public class ComposeMailBean {
 	private String subject;
 	private String body;
 	private String from;
+<<<<<<< HEAD
 	private String sender;
+=======
+>>>>>>> 8e9556fdc6b446ed603f7110791d820083e6f007
 	
 	
 	public String getToName() {
@@ -41,6 +44,7 @@ public class ComposeMailBean {
 	}
 	private String Time;
 
+<<<<<<< HEAD
 
 	public String getSender() {
 		return sender;
@@ -50,4 +54,6 @@ public class ComposeMailBean {
 	}
 	
 
+=======
+>>>>>>> 8e9556fdc6b446ed603f7110791d820083e6f007
 }

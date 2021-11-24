@@ -9,6 +9,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8e9556fdc6b446ed603f7110791d820083e6f007
 import java.sql.Connection;
 import bean.ComposeMailBean;
 import dao.ComposeMailDAO;
@@ -74,4 +78,5 @@ public class ComposeMail extends HttpServlet {
 
 //		}
 	}
+
 }

@@ -4,8 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-
-
+//file to create connection with MySQL DB
 public class Connect {
 
 	private static Connection connection=null;
